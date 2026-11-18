@@ -20,3 +20,12 @@ student_drop/
 
 # Instructor-only hidden pack from Day 8. Never push it.
 src/eval/instructor/
+AGENTS.md
+CHECKLIST.md
+
+# Local checkpoint notes; final evidence is in the required docs/ files.
+docs/m4_gate.md
+docs/m5_plan.md
+docs/m5_results.md
+docs/m6_results.md
+docs/m7_results.md
