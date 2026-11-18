@@ -10,9 +10,20 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 
-# Runtime output. Reports for grading (baseline_v1/v2, eval_fixed, eval_seeded_regression)
-# are committed with: git add -f reports/*.json
-src/reports/
+# Runtime output; keep only reports cited by the Lab 9 submission.
+src/reports/*
+!src/reports/baseline_v1.json
+!src/reports/eval_pr.json
+!src/reports/eval_fixed.json
+!src/reports/eval_seeded_regression.json
+!src/reports/m3_honest_refactor.json
+!src/reports/baseline_v2.json
+!src/reports/m6_aa_alt.json
+!src/reports/m6_fixed.json
+!src/reports/m6_honest_refactor.json
+!src/reports/m6_seeded_regression.json
+!src/reports/eval_slice_regression.json
+!src/reports/m6_flaky_regression.json
 traces/
 *.sqlite
 *.sqlite-*
@@ -20,3 +31,12 @@ student_drop/
 
 # Instructor-only hidden pack from Day 8. Never push it.
 src/eval/instructor/
+AGENTS.md
+CHECKLIST.md
+
+# Local checkpoint notes; final evidence is in the required docs/ files.
+docs/m4_gate.md
+docs/m5_plan.md
+docs/m5_results.md
+docs/m6_results.md
+docs/m7_results.md
