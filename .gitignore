@@ -10,20 +10,9 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 
-# Runtime output; keep only reports cited by the Lab 9 submission.
-src/reports/*
-!src/reports/baseline_v1.json
-!src/reports/eval_pr.json
-!src/reports/eval_fixed.json
-!src/reports/eval_seeded_regression.json
-!src/reports/m3_honest_refactor.json
-!src/reports/baseline_v2.json
-!src/reports/m6_aa_alt.json
-!src/reports/m6_fixed.json
-!src/reports/m6_honest_refactor.json
-!src/reports/m6_seeded_regression.json
-!src/reports/eval_slice_regression.json
-!src/reports/m6_flaky_regression.json
+# Runtime output. Reports for grading (baseline_v1/v2, eval_fixed, eval_seeded_regression)
+# are committed with: git add -f reports/*.json
+src/reports/
 traces/
 *.sqlite
 *.sqlite-*
